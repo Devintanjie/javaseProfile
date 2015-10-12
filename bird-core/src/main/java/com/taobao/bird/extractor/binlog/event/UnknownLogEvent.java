@@ -4,7 +4,7 @@ import com.taobao.bird.extractor.binlog.LogEvent;
 
 /**
  * @desc
- * @author junyu 2015年10月2日下午4:06:43
+ * @author junyu 
  * @version
  **/
 public final class UnknownLogEvent extends LogEvent {

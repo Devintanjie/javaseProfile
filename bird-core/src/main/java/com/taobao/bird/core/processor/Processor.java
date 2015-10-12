@@ -3,7 +3,7 @@ package com.taobao.bird.core.processor;
 
 /**
  * @desc 
- * @author junyu 2015年3月18日上午8:48:50
+ * @author junyu
  * @version 
  **/
 public interface Processor<T> {

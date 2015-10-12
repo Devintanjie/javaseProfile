@@ -5,10 +5,6 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 
 import com.taobao.bird.common.utils.BirdToStringStyle;
 
-/**
- * @author jianghang 2013-9-3 2:46:32
- * @since 3.0.0
- */
 public class ColumnMeta {
 
     private String name;

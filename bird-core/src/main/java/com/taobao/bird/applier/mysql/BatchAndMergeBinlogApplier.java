@@ -9,7 +9,7 @@ import com.taobao.bird.extractor.binlog.LogEvent;
 
 /**
  * @desc
- * @author junyu 2015年10月4日下午11:09:43
+ * @author junyu 
  * @version
  **/
 public class BatchAndMergeBinlogApplier implements Applier<ArrayList<LogEvent>>, BirdLifeCycle {

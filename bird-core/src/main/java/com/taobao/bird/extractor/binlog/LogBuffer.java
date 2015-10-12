@@ -10,7 +10,7 @@ import java.util.BitSet;
 
 /**
  * @desc
- * @author junyu 2015年10月2日上午11:28:32
+ * @author junyu
  * @version
  **/
 public class LogBuffer {

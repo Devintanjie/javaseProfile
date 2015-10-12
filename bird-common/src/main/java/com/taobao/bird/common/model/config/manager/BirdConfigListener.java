@@ -2,7 +2,7 @@ package com.taobao.bird.common.model.config.manager;
 
 /**
  * @desc
- * @author junyu 2015年2月18日下午1:08:22
+ * @author junyu
  * @version
  **/
 public interface BirdConfigListener<T,X> {

@@ -10,7 +10,7 @@ import com.alibaba.fastjson.JSONObject;
 
 /**
  * @desc
- * @author junyu 2015年2月19日下午5:20:28
+ * @author junyu
  * @version
  **/
 public class AgentNode extends SimpleNode {

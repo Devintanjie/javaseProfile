@@ -6,7 +6,7 @@ import javax.sql.DataSource;
 
 /**
  * @desc
- * @author junyu 2015年2月18日下午1:46:28
+ * @author junyu 
  * @version
  **/
 public interface DataSourceFactory {

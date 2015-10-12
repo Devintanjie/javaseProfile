@@ -13,7 +13,7 @@ import com.taobao.bird.common.log.Logger;
 
 /**
  * @desc
- * @author junyu 2015年10月6日上午11:08:33
+ * @author junyu
  * @version
  **/
 public class TraceProfile {

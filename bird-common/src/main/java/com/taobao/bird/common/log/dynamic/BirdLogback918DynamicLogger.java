@@ -22,7 +22,7 @@ import com.taobao.bird.common.model.config.SimpleNode;
 
 /**
  * @desc
- * @author junyu 2015年10月11日下午12:52:11
+ * @author junyu 
  * @version
  **/
 public class BirdLogback918DynamicLogger extends BirdDynamicLogger {

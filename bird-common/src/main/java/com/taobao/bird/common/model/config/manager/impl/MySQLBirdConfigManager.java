@@ -58,7 +58,7 @@ import com.taobao.bird.common.utils.Constants;
 
 /**
  * @desc
- * @author junyu 2015年2月18日下午12:11:30
+ * @author junyu 
  * @version
  **/
 public class MySQLBirdConfigManager implements BirdConfigManager, Runnable, BirdLifeCycle {

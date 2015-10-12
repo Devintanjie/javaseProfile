@@ -3,7 +3,7 @@ package com.taobao.bird.core;
 
 /**
  * @desc 
- * @author junyu 2015年10月4日下午10:47:25
+ * @author junyu
  * @version 
  **/
 public class BirdFullTransferMain {

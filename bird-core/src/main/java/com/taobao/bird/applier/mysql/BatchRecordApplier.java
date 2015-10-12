@@ -10,7 +10,7 @@ import com.taobao.bird.common.lifecycle.BirdLifeCycle;
 
 /**
  * @desc
- * @author junyu 2015年10月4日下午11:09:43
+ * @author junyu
  * @version
  **/
 public class BatchRecordApplier implements Applier<List<Record>>, BirdLifeCycle {

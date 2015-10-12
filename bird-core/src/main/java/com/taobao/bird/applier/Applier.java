@@ -3,7 +3,7 @@ package com.taobao.bird.applier;
 
 /**
  * @desc 
- * @author junyu 2015年10月4日下午10:39:18
+ * @author junyu
  * @version 
  **/
 public interface Applier<T> {

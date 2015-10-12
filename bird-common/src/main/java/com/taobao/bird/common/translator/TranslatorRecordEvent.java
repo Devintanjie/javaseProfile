@@ -8,7 +8,6 @@ import com.taobao.bird.common.model.runtime.BirdRecord;
 /**
  * @description
  * @author <a href="junyu@taobao.com">junyu</a>
- * @date 2013-7-12下午04:14:30
  */
 public class TranslatorRecordEvent {
 
@@ -17,7 +16,6 @@ public class TranslatorRecordEvent {
     private String           logicTable;
     private List<BirdRecord> result;
 
-    // 兼容旧的转换类
     public void setShardKey(String shardKey) {
         shardKeys = new ArrayList<String>();
         shardKeys.add(shardKey);

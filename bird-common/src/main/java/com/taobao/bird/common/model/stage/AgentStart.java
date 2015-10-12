@@ -4,7 +4,7 @@ import com.taobao.bird.common.model.config.StageNode.StageProcess;
 
 /**
  * @desc
- * @author junyu 2015年2月19日下午5:22:06
+ * @author junyu 
  * @version
  **/
 public class AgentStart extends OperateStage {

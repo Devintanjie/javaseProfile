@@ -6,7 +6,7 @@ package com.taobao.bird.common.log.dynamic;
  * @author <a href="junyu@taobao.com">junyu</a>
  * @version 1.0
  * @since 1.6
- * @date 2011-6-21обнГ04:28:08
+ * @date 2011-6-21
  */
 public enum LogType {
     AGENT, FULL, INCRE, CHECK;

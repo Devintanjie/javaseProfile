@@ -3,12 +3,6 @@ package com.taobao.bird.common.model.stage;
 import org.apache.commons.lang.StringUtils;
 
 public abstract class OperateStage implements Stage {
-
-    /*
-     * 迁移任务的state信息,正常的顺序应该是 Initialization GetPosition PositionMarked
-     * FullTransfer FullComplete IncreTransfer IncreCatchup IncreStopWrite
-     * Complete
-     */
     public String getStageValue() {
         return getClassWithoutPackage(this);
     }

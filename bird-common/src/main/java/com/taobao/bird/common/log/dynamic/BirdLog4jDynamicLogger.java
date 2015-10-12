@@ -60,7 +60,7 @@ public class BirdLog4jDynamicLogger extends BirdDynamicLogger {
         appender.setDatePattern("'.'yyyy-MM-dd-HH");
         appender.setMaxBackupIndex(maxBackupIndex);
         appender.setFile(new File(getLogPath(node), fileName).getAbsolutePath());
-        appender.activateOptions();// 很重要，否则原有日志内容会被清空
+        appender.activateOptions();
         return appender;
     }
 }

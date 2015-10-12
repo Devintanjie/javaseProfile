@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * @desc 
- * @author junyu 2015年10月3日上午8:58:54
+ * @author junyu
  * @version 
  **/
 public final class DirectLogFetcher extends LogFetcher {

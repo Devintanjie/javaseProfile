@@ -10,7 +10,7 @@ import com.taobao.bird.extractor.Extractor;
 
 /**
  * @desc
- * @author junyu 2015年10月4日下午10:52:53
+ * @author junyu
  * @version
  **/
 public class OrdedBatchGetExtractor implements Extractor<ArrayList<Record>>, BirdLifeCycle {

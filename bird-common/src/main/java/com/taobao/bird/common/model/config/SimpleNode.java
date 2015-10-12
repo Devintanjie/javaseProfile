@@ -9,7 +9,7 @@ import com.taobao.bird.common.utils.Constants;
 
 /**
  * @desc
- * @author junyu 2015年2月16日下午1:53:18
+ * @author junyu 
  * @version
  **/
 public class SimpleNode {

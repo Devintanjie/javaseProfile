@@ -5,14 +5,14 @@ import org.apache.commons.lang.builder.ToStringStyle;
 
 /**
  * @desc
- * @author junyu 2015年2月16日下午1:42:14
+ * @author junyu 
  * @version
  **/
 public class BirdColumnValue {
 
     private ColumnMeta column;
     private Object     value;
-    private boolean    check = true; // 是否需要做数据对比
+    private boolean    check = true;
 
     public BirdColumnValue(){
     }

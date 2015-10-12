@@ -12,7 +12,7 @@ import com.taobao.bird.common.model.config.SimpleNode;
 
 /**
  * @desc
- * @author junyu 2015Äê10ÔÂ6ÈÕÉÏÎç11:03:33
+ * @author junyu
  * @version
  **/
 public class BirdLogFactory {
@@ -56,7 +56,7 @@ public class BirdLogFactory {
     private static BirdDynamicLogger buildDynamic(Logger logger) {
         boolean canUseEncoder;
         try {
-            // logback´Ó0.9.19¿ªÊ¼²ÉÓÃencoder
+            // logbackï¿½ï¿½0.9.19ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½encoder
             // http://logback.qos.ch/manual/encoders.html
             Class.forName("ch.qos.logback.classic.encoder.PatternLayoutEncoder");
             canUseEncoder = true;
@@ -68,7 +68,7 @@ public class BirdLogFactory {
         String LOGBACK = "logback";
         String LOG4J = "log4j";
 
-        // slf4jÖ»ÊÇÒ»¸ö´úÀí¹¤³Ì£¬ÐèÒªÅÐ¶ÏÒ»ÏÂ¾ßÌåµÄÊµÏÖÀà
+        // slf4jÖ»ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½?ï¿½Ì£ï¿½ï¿½ï¿½Òªï¿½Ð¶ï¿½Ò»ï¿½Â¾ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½
         if (checkLogger(logger, LOGBACK)) {
             if (canUseEncoder) {
                 dynamic = new BirdLogbackDynamicLogger();

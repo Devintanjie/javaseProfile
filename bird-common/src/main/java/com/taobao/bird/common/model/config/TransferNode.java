@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 
 /**
  * @desc
- * @author junyu 2015年2月18日下午9:52:19
+ * @author junyu 
  * @version
  **/
 public class TransferNode extends SimpleNode {

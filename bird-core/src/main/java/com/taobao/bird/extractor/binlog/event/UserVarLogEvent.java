@@ -9,7 +9,7 @@ import com.taobao.bird.extractor.binlog.LogEvent;
 
 /**
  * @desc
- * @author junyu 2015年10月2日下午4:08:22
+ * @author junyu
  * @version
  **/
 public final class UserVarLogEvent extends LogEvent {

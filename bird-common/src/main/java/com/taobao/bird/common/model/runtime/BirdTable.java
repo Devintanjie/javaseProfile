@@ -9,7 +9,7 @@ import com.taobao.bird.common.utils.BirdToStringStyle;
 
 /**
  * @desc
- * @author junyu 2015年2月16日下午1:19:59
+ * @author junyu
  * @version
  **/
 public class BirdTable {

@@ -11,7 +11,7 @@ import com.taobao.bird.common.model.config.manager.StageNodeListener;
 
 /**
  * @desc
- * @author junyu 2015年2月18日下午12:07:32
+ * @author junyu 
  * @version
  **/
 public class ZkBirdConfigManager implements BirdConfigManager {

@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 
 /**
  * @desc
- * @author junyu 2015年2月16日下午4:55:58
+ * @author junyu 
  * @version
  **/
 public class StatsNode extends SimpleNode {
@@ -13,19 +13,10 @@ public class StatsNode extends SimpleNode {
 
     private String             currRecord;
 
-    /**
-     * 当前处理表名
-     */
     private String             currTable;
 
-    /**
-     * 当前处理的db,一个实例多个库迁移有用
-     */
     private String             currDb;
 
-    /**
-     * 当前处理的ip:port
-     */
     private String             currUrl;
 
     private String             currPosition;

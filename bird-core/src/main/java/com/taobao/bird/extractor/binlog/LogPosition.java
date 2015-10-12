@@ -3,7 +3,7 @@ package com.taobao.bird.extractor.binlog;
 
 /**
  * @desc
- * @author junyu 2015年10月2日下午1:02:31
+ * @author junyu
  * @version
  **/
 public class LogPosition implements Cloneable, Comparable<LogPosition> {

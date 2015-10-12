@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 /**
  * @desc 
- * @author junyu 2015��10��3������8:56:32
+ * @author junyu
  * @version 
  **/
 public abstract class LogFetcher extends LogBuffer implements Closeable {

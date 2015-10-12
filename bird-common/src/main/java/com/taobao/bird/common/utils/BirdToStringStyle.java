@@ -7,7 +7,7 @@ import org.apache.commons.lang.builder.ToStringStyle;
 
 /**
  * @desc
- * @author junyu 2015年2月16日下午1:31:32
+ * @author junyu 
  * @version
  **/
 public class BirdToStringStyle extends ToStringStyle {
@@ -18,7 +18,6 @@ public class BirdToStringStyle extends ToStringStyle {
 
     /**
      * <pre>
-     * 输出格式：
      * Person[name=John Doe,age=33,smoker=false ,time=2010-04-01 00:00:00]
      * </pre>
      */
@@ -26,7 +25,6 @@ public class BirdToStringStyle extends ToStringStyle {
 
     /**
      * <pre>
-     * 输出格式：
      * Person[name=John Doe,age=33,smoker=false ,day=2010-04-01]
      * </pre>
      */
@@ -34,40 +32,32 @@ public class BirdToStringStyle extends ToStringStyle {
 
     /**
      * <pre>
-     * 输出格式：
      * Person[name=John Doe,age=33,smoker=false ,time=2010-04-01 00:00:00]
      * </pre>
      */
     public static final ToStringStyle DEFAULT_STYLE    = BirdToStringStyle.TIME_STYLE;
 
-    // =========================== 自定义style =============================
-
     /**
-     * 支持日期格式化的ToStringStyle
-     * 
      * @author li.jinl
      */
     private static class OtterDateStyle extends ToStringStyle {
 
         private static final long serialVersionUID = 5208917932254652886L;
 
-        // 日期format格式
         private String            pattern;
 
         public OtterDateStyle(String pattern){
             super();
             this.setUseShortClassName(true);
             this.setUseIdentityHashCode(false);
-            // 设置日期format格式
             this.pattern = pattern;
         }
 
         protected void appendDetail(StringBuffer buffer, String fieldName, Object value) {
-            // 增加自定义的date对象处理
             if (value instanceof Date) {
                 value = new SimpleDateFormat(pattern).format(value);
             }
-            // 后续可以增加其他自定义对象处理
+            
             buffer.append(value);
         }
     }

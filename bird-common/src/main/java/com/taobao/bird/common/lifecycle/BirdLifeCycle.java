@@ -3,7 +3,7 @@ package com.taobao.bird.common.lifecycle;
 
 /**
  * @desc
- * @author junyu 2015年2月16日下午5:12:10
+ * @author junyu
  * @version
  **/
 public interface BirdLifeCycle {

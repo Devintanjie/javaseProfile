@@ -4,7 +4,7 @@ import com.taobao.bird.extractor.binlog.LogBuffer;
 
 /**
  * @desc
- * @author junyu 2015年10月2日下午4:05:03
+ * @author junyu 
  * @version
  **/
 public class RowsQueryLogEvent extends IgnorableLogEvent {

@@ -4,7 +4,7 @@ import com.taobao.bird.extractor.binlog.LogBuffer;
 
 /**
  * @desc
- * @author junyu 2015年10月2日下午1:08:28
+ * @author junyu 
  * @version
  **/
 public final class DeleteRowsLogEvent extends RowsLogEvent {

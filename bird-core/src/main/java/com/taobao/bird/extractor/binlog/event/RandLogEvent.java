@@ -5,7 +5,7 @@ import com.taobao.bird.extractor.binlog.LogEvent;
 
 /**
  * @desc
- * @author junyu 2015年10月2日下午4:02:34
+ * @author junyu 
  * @version
  **/
 public final class RandLogEvent extends LogEvent {

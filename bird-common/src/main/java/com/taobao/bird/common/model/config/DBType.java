@@ -5,7 +5,6 @@ package com.taobao.bird.common.model.config;
  * @author <a href="junyu@taobao.com">junyu</a>
  * @version 1.0
  * @since 1.6
- * @date 2011-12-20обнГ12:24:26
  */
 public enum DBType {
     ORACLE(0), MYSQL(1), INFOBRIGHT(2), HBASE(3), OB(4), DRDS(5);

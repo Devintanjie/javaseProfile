@@ -9,7 +9,7 @@ import com.taobao.bird.common.model.config.SimpleNode;
 
 /**
  * @desc
- * @author junyu 2015年10月11日下午12:28:37
+ * @author junyu 
  * @version
  **/
 public abstract class BirdDynamicLogger {

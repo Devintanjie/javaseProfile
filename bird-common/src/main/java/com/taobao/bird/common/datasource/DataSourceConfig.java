@@ -6,7 +6,7 @@ import com.taobao.bird.common.utils.BirdToStringStyle;
 
 /**
  * @desc
- * @author junyu 2015年2月18日下午1:48:52
+ * @author junyu 
  * @version
  **/
 public class DataSourceConfig {

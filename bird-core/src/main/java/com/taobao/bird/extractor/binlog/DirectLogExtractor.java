@@ -14,7 +14,7 @@ import com.taobao.bird.extractor.Extractor;
 
 /**
  * @desc
- * @author junyu 2015Äê10ÔÂ4ÈÕÏÂÎç10:52:53
+ * @author junyu
  * @version
  **/
 public class DirectLogExtractor implements Extractor<LogEvent>, BirdLifeCycle {
@@ -44,7 +44,7 @@ public class DirectLogExtractor implements Extractor<LogEvent>, BirdLifeCycle {
 
             try {
                 fetcher = new DirectLogFetcher();
-                // TODO:¼ÓÈëÖ÷±¸ÇÐ»»
+                // TODO:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð»ï¿½
                 Class.forName("com.mysql.jdbc.Driver").newInstance();
                 Connection conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/binlog_test",
                     "bucket",
@@ -78,7 +78,7 @@ public class DirectLogExtractor implements Extractor<LogEvent>, BirdLifeCycle {
     @Override
     public LogEvent extract() {
         try {
-            // TODO:¼ÓÈëÈÝÔÖ
+            // TODO:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             fetcher.fetch();
             LogEvent e = decoder.decode(fetcher, context);
             return e;

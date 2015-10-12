@@ -5,7 +5,7 @@ import com.taobao.bird.extractor.binlog.LogEvent;
 
 /**
  * @desc
- * @author junyu 2015年10月2日下午4:03:24
+ * @author junyu
  * @version
  **/
 public final class RotateLogEvent extends LogEvent {

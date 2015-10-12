@@ -8,7 +8,7 @@ import com.taobao.bird.common.model.config.StatsNode;
 
 /**
  * @desc
- * @author junyu 2015年2月18日上午11:53:04
+ * @author junyu 
  * @version
  **/
 public interface BirdConfigManager {

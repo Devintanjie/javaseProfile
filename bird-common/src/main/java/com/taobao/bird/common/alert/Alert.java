@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * @desc
- * @author junyu 2015年2月16日下午12:48:28
+ * @author junyu 
  * @version
  **/
 public interface Alert {

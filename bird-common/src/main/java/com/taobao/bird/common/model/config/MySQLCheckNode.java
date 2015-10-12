@@ -7,7 +7,7 @@ import com.alibaba.fastjson.JSONObject;
 
 /**
  * @desc
- * @author junyu 2015年2月16日下午3:05:09
+ * @author junyu
  * @version
  **/
 public class MySQLCheckNode extends MySQLTransferNode {

@@ -39,7 +39,7 @@ import com.taobao.bird.extractor.binlog.event.XidLogEvent;
 
 /**
  * @desc 
- * @author junyu 2015年10月2日下午12:48:20
+ * @author junyu
  * @version 
  **/
 public final class LogDecoder {

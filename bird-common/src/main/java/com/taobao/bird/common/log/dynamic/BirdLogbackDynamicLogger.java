@@ -14,7 +14,7 @@ import com.taobao.bird.common.model.config.SimpleNode;
 
 /**
  * @desc
- * @author junyu 2015年10月11日下午2:33:49
+ * @author junyu
  * @version
  **/
 public class BirdLogbackDynamicLogger extends BirdLogback918DynamicLogger {

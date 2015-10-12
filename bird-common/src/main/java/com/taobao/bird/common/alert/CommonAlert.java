@@ -11,7 +11,7 @@ import com.taobao.bird.common.utils.Constants;
 
 /**
  * @desc
- * @author junyu 2015年2月16日下午12:51:19
+ * @author junyu 
  * @version
  **/
 public class CommonAlert implements Alert {

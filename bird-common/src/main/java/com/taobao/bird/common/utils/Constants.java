@@ -2,7 +2,7 @@ package com.taobao.bird.common.utils;
 
 /**
  * @desc
- * @author junyu 2015年2月16日下午1:03:15
+ * @author junyu 
  * @version
  **/
 public class Constants {

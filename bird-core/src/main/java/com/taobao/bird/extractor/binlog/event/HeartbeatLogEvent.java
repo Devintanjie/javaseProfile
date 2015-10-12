@@ -5,7 +5,7 @@ import com.taobao.bird.extractor.binlog.LogEvent;
 
 /**
  * @desc
- * @author junyu 2015年10月2日下午3:47:18
+ * @author junyu
  * @version
  **/
 public class HeartbeatLogEvent extends LogEvent {

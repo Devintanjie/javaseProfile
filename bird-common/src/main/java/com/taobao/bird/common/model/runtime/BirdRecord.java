@@ -9,7 +9,7 @@ import com.google.common.collect.Lists;
 
 /**
  * @desc
- * @author junyu 2015年2月16日下午1:20:10
+ * @author junyu 
  * @version
  **/
 public class BirdRecord {

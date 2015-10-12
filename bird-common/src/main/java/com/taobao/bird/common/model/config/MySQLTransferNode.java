@@ -9,7 +9,7 @@ import com.taobao.bird.common.utils.BirdCollectionUtils;
 
 /**
  * @desc
- * @author junyu 2015年2月16日下午3:05:09
+ * @author junyu
  * @version
  **/
 public class MySQLTransferNode extends TransferNode {
@@ -26,10 +26,8 @@ public class MySQLTransferNode extends TransferNode {
 
     private String       targetPasswd;
 
-    // 支持后缀为'_数字'，或者'_数字_数字',或者完全匹配的表
     private List<String> tableWhiteList = new ArrayList<String>();
 
-    // 支持正则
     private List<String> tableBlackList = new ArrayList<String>();
 
     private StageNode    stageNode;

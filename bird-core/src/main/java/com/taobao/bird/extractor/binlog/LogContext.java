@@ -8,7 +8,7 @@ import com.taobao.bird.extractor.binlog.event.TableMapLogEvent;
 
 /**
  * @desc
- * @author junyu 2015年10月2日下午1:00:28
+ * @author junyu
  * @version
  **/
 public final class LogContext {

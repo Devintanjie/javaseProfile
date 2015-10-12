@@ -5,7 +5,7 @@ import com.taobao.bird.common.model.stage.OperateStage;
 
 /**
  * @desc
- * @author junyu 2015年2月16日下午4:04:58
+ * @author junyu 
  * @version
  **/
 public class StageNode extends SimpleNode {

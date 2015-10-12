@@ -11,7 +11,7 @@ import com.taobao.bird.common.model.runtime.ColumnMeta;
 
 /**
  * @desc
- * @author junyu 2015年2月17日下午12:12:43
+ * @author junyu 
  * @version
  **/
 public class BirdSqlUtils {
@@ -30,12 +30,6 @@ public class BirdSqlUtils {
         return sb.toString();
     }
 
-    /**
-     * 根据列的数量拼写insert into tab values 后的参数字符串 ?,?,?,...
-     * 
-     * @param cols
-     * @return
-     */
     public static String makeInsertValues(List<ColumnMeta> cols) {
         StringBuilder sb = new StringBuilder("");
         for (int i = 0; i < cols.size(); i++) {

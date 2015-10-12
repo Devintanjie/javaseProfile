@@ -12,7 +12,7 @@ import com.taobao.bird.common.datasource.DataSourceFactory;
 
 /**
  * @desc
- * @author junyu 2015年2月18日下午1:56:13
+ * @author junyu
  * @version
  **/
 public class DruidDataSourceFactory implements DataSourceFactory {
