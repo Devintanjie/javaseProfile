@@ -1,0 +1,41 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.tableList input {
+  width: 100%;
+  float: right;
+  height: 38px;
+  border-color: #ffffff;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.tableList td {
+  padding: 0 !important;
+}
+
+textarea {
+  resize: none;
+}
+
+.json-panel {
+  font-weight: 500;
+}
+
+.remove-hide .glyphicon-minus {
+  display: none;
+}
+
+.remove-hide select {
+  display: none;
+}
+
+.remove-hide .disabled-select {
+  display: block !important;
+}
