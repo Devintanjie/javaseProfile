@@ -1,6 +1,8 @@
 package com.taobao.bird.common.utils;
 
 import java.io.UnsupportedEncodingException;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Types;
 import java.util.List;
 
@@ -11,7 +13,7 @@ import com.taobao.bird.common.model.runtime.ColumnMeta;
 
 /**
  * @desc
- * @author junyu 
+ * @author junyu
  * @version
  **/
 public class BirdSqlUtils {
@@ -126,5 +128,50 @@ public class BirdSqlUtils {
         }
 
         return source;
+    }
+
+    public static Object getMysqlValue(ResultSet rs, ColumnMeta col, String sourceEncoding, String targetEncoding)
+                                                                                                              throws SQLException,
+                                                                                                              UnsupportedEncodingException {
+        switch (col.getType()) {
+            case Types.BIT:
+                return rs.getInt(col.getName());
+            case Types.CHAR:
+            case Types.VARCHAR:
+            case Types.LONGVARCHAR:
+            case Types.NCHAR:
+            case Types.NVARCHAR:
+            case Types.LONGNVARCHAR:
+            case Types.CLOB:
+            case Types.NCLOB:
+                if (StringUtils.isNotBlank(sourceEncoding) && sourceEncoding.equals("latin1")) {
+                    Object v = rs.getObject(col.getName());
+                    if (v != null && v instanceof String) {
+                        byte[] bytes = rs.getBytes(col.getName());
+                        if (StringUtils.isNotBlank(targetEncoding)) {
+                            v = new String(bytes, targetEncoding);
+                        } else {
+                            v = new String(bytes);
+                        }
+
+                        return v;
+                    } else {
+                        return v;
+                    }
+                } else {
+                    return rs.getObject(col.getName());
+                }
+            case Types.TIMESTAMP:
+            case Types.TIME:
+            case Types.DATE:
+                byte[] b = rs.getBytes(col.getName());
+                if (b != null) {
+                    return new String(b, "utf-8");
+                } else {
+                    return null;
+                }
+            default:
+                return rs.getObject(col.getName());
+        }
     }
 }

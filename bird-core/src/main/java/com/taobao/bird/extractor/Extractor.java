@@ -7,5 +7,5 @@ package com.taobao.bird.extractor;
  **/
 public interface Extractor<T> {
 
-    public T extract();
+    public void extract();
 }

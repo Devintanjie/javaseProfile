@@ -7,5 +7,5 @@ package com.taobao.bird.core.processor;
  * @version 
  **/
 public interface Processor<T> {
-
+    public void work();
 }

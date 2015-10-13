@@ -22,6 +22,8 @@ public class MySQLTransferNode extends TransferNode {
 
     private String       sourcePasswd;
 
+    private String       sourceEncoding;
+
     private String       targetUserName;
 
     private String       targetPasswd;
@@ -29,6 +31,8 @@ public class MySQLTransferNode extends TransferNode {
     private List<String> tableWhiteList = new ArrayList<String>();
 
     private List<String> tableBlackList = new ArrayList<String>();
+
+    private String       targetEncoding;
 
     private StageNode    stageNode;
 
@@ -45,8 +49,10 @@ public class MySQLTransferNode extends TransferNode {
         j.put("targetDbName", targetDbName);
         j.put("sourceUserName", sourceUserName);
         j.put("targetUserName", targetUserName);
+        j.put("sourceEncoding)", sourceEncoding);
         j.put("sourcePasswd", sourcePasswd);
         j.put("targetPasswd", targetPasswd);
+        j.put("targetEncoding", targetEncoding);
         JSONArray wTables = new JSONArray();
         wTables.addAll(tableWhiteList);
         JSONArray bTables = new JSONArray();
@@ -79,6 +85,16 @@ public class MySQLTransferNode extends TransferNode {
 
         if (json.containsKey("targetUserName")) {
             this.targetUserName = json.getString("targetUserName");
+        }
+
+        if (json.containsKey("sourceEncoding")) {
+            this.sourceEncoding = json.getString("sourceEncoding");
+        } else {
+            throw new IllegalArgumentException("sourceEncoding is null.");
+        }
+
+        if (json.containsKey("targetEncoding")) {
+            this.targetEncoding = json.getString("targetEncoding");
         }
 
         if (json.containsKey("sourcePasswd")) {
@@ -205,4 +221,21 @@ public class MySQLTransferNode extends TransferNode {
     public void setInsertConcurrency(int insertConcurrency) {
         this.insertConcurrency = insertConcurrency;
     }
+
+    public String getSourceEncoding() {
+        return sourceEncoding;
+    }
+
+    public void setSourceEncoding(String sourceEncoding) {
+        this.sourceEncoding = sourceEncoding;
+    }
+
+    public String getTargetEncoding() {
+        return targetEncoding;
+    }
+
+    public void setTargetEncoding(String targetEncoding) {
+        this.targetEncoding = targetEncoding;
+    }
+
 }
